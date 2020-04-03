@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ServQuick" translatesAutoresizingMaskIntoConstraints="NO" id="04P-iU-xS7">
+                                <rect key="frame" x="-513" y="-2" width="1440" height="900"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lhb-uo-mnt">
+                                <rect key="frame" x="19.5" y="303" width="375" height="290"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Christian Calderón iOS 2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ed-PC-sBb">
+                                        <rect key="frame" x="20" y="128.5" width="335" height="33"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <color key="textColor" red="0.85098039219999999" green="0.37254901959999998" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paperplane.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="vQh-jl-GU1">
+                                        <rect key="frame" x="137.5" y="20.5" width="100" height="99.5"/>
+                                        <color key="tintColor" red="0.85098039215686272" green="0.37254901960784315" blue="0.12156862745098039" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="Q8R-Li-rOA"/>
+                                            <constraint firstAttribute="height" constant="100" id="mgb-lX-liT"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="6ed-PC-sBb" firstAttribute="centerX" secondItem="vQh-jl-GU1" secondAttribute="centerX" id="A7d-RY-qPV"/>
+                                    <constraint firstItem="6ed-PC-sBb" firstAttribute="centerX" secondItem="Lhb-uo-mnt" secondAttribute="centerX" id="JyF-JY-lSN"/>
+                                    <constraint firstItem="6ed-PC-sBb" firstAttribute="top" secondItem="vQh-jl-GU1" secondAttribute="bottom" constant="8.5" id="NNa-IN-olf"/>
+                                    <constraint firstItem="6ed-PC-sBb" firstAttribute="centerY" secondItem="Lhb-uo-mnt" secondAttribute="centerY" id="UMX-iH-xiI"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Lhb-uo-mnt" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="3GN-Gb-HBL"/>
+                            <constraint firstItem="04P-iU-xS7" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="BAI-fP-ycR"/>
+                            <constraint firstItem="Lhb-uo-mnt" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="REI-QS-sko"/>
+                            <constraint firstItem="Lhb-uo-mnt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="19.5" id="VXL-7z-2NO"/>
+                            <constraint firstItem="Lhb-uo-mnt" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ZCJ-wz-FB1"/>
+                            <constraint firstItem="Lhb-uo-mnt" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="gfk-hE-eCp"/>
+                            <constraint firstItem="Lhb-uo-mnt" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="h7C-ks-X3k"/>
+                            <constraint firstItem="04P-iU-xS7" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="irR-nY-v26"/>
+                            <constraint firstItem="Lhb-uo-mnt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="259" id="w5K-le-1U8"/>
+                            <constraint firstItem="Lhb-uo-mnt" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="x0q-55-1LH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ServQuick" width="1440" height="900"/>
+        <image name="paperplane.fill" catalog="system" width="64" height="60"/>
+    </resources>
+</document>
